@@ -1,0 +1,120 @@
+:root {
+  --color-yellow: hsl(47, 88%, 63%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-gray-500: hsl(0, 0%, 42%);
+  --color-gray-950: hsl(0, 0%, 7%);
+  --text-preset-1: 24px;
+  --text-preset-2: 16px;
+  --text-preset-3: 14px;
+  --spacing-50: 4px;
+  --spacing-100: 8px;
+  --spacing-200: 24px;
+  --spacing-150: 12px;
+  font-family: "Figtree", sans-serif;
+}
+
+/* Base styles default: mobile */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-yellow);
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-200);
+    align-items: flex-start;
+    gap: var(--spacing-200);
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid var(--color-gray-950);
+    background-color: var(--color-white);
+    box-shadow: 8px 8px 0px 0px #000;
+    justify-content: space-around;
+    max-width:279px;
+  }
+  
+  .image {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .text { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    justify-content: space-between;
+    gap: var(--spacing-150);
+  }
+  
+  .text h1 {
+    color: var(--color-gray-950);
+    font-size: var(--spacing-200);
+    font-weight: 800;
+    line-height: 150%; /* 36px */
+  }
+  
+  .text h2{
+    font-size: var(--text-preset-3);
+    font-weight: 800;
+    line-height: 150%; /* 21px */
+    padding: var(--spacing-50) var(--spacing-150);
+    background-color: var(--color-yellow);
+    border-radius: 4px;
+  }
+  
+  .published-date {
+    color: var(--color-gray-950);
+    font-weight: 500;
+    font-size: var(--text-preset-3);
+    line-height: 150%; /* 21px */
+  }
+  
+  .description {
+    color: var(--color-gray-500);
+    font-size: var(--text-preset-2);
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-150);
+  }
+  
+  .author figcaption {
+    color: var(--color-gray-950);
+    font-size: var(--text-preset-3);
+    font-weight: 800;
+    line-height: 150%; /* 21px */
+  }
+  
+  .author img {
+    width: 32px;
+    height: 32px;
+  }
+  
+/* Styles for larger screens */
+@media only screen and (min-width: 600px) {
+  .content{
+    max-width: 336px;
+  }
+}
