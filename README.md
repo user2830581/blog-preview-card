@@ -24,6 +24,7 @@ Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
+---
 ### Screenshot
 
 **Web Version**
@@ -37,6 +38,7 @@ Users should be able to:
 <img src="./assets/images/Screenshot%202025-01-15%20123904_mobile.png" alt="Web Version" height="400">
 </p>
 
+---
 
 ### Links
 
