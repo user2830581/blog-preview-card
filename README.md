@@ -27,15 +27,15 @@ Users should be able to:
 ### Screenshot
 
 **Web Version**
-
+<p align="center">
 <img src="./assets/images/Screenshot%202025-01-15%20123304.png" alt="Web Version" width="800">
-
-
+</p>
 
 
 **Mobile Version**
-
+<p align="center">
 <img src="./assets/images/Screenshot%202025-01-15%20123904_mobile.png" alt="Web Version" height="400">
+</p>
 
 
 ### Links
