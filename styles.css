@@ -41,7 +41,7 @@ body {
   background-color: var(--color-white);
   box-shadow: 8px 8px 0px 0px #000;
   justify-content: space-around;
-  max-width: 279px;
+  max-width: 327px;
 }
 
 .image {
@@ -67,13 +67,15 @@ body {
 
 .text h1 {
   color: var(--color-gray-950);
-  font-size: var(--spacing-200);
+  /* clamp(minimum val, preferred val (calculate font based on viewport width), max value)
+  1vw is 1% of width of viewport, if viewport is 1000px wide 1vw is 10px. default 1rem is 16px. */
+  font-size: clamp(20px, 2vw, 24px);
   font-weight: 800;
   line-height: 150%; /* 36px */
 }
 
 .text h2 {
-  font-size: var(--text-preset-3);
+  font-size: clamp(12px, 2vw, 14px);
   font-weight: 800;
   line-height: 150%; /* 21px */
   padding: var(--spacing-50) var(--spacing-150);
@@ -84,13 +86,13 @@ body {
 .published-date {
   color: var(--color-gray-950);
   font-weight: 500;
-  font-size: var(--text-preset-3);
+  font-size: clamp(12px, 2vw, 14px);
   line-height: 150%; /* 21px */
 }
 
 .description {
   color: var(--color-gray-500);
-  font-size: var(--text-preset-2);
+  font-size: clamp(14px, 2vw, 16px);
   font-weight: 500;
   line-height: 150%; /* 24px */
 }
