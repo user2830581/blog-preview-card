@@ -28,7 +28,9 @@ Users should be able to:
 
 **Web Version**
 
-![](./assets/images/Screenshot%202025-01-15%20123304.png)
+<img src="./assets/images/Screenshot%202025-01-15%20123304.png" alt="Web Version" width="400" height="300">
+
+
 
 
 **Mobile Version**
