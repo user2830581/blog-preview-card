@@ -35,7 +35,7 @@ Users should be able to:
 
 **Mobile Version**
 
-![](./assets/images/Screenshot%202025-01-15%20123904_mobile.png)
+<img src="./assets/images/Screenshot%202025-01-15%20123904_mobile.png" alt="Web Version" height="400">
 
 
 ### Links
