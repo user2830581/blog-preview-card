@@ -26,8 +26,14 @@ Users should be able to:
 
 ### Screenshot
 
-**Web Version** ![](./assets/images/Screenshot%202025-01-15%20123304.png)
-**Mobile Version** ![](./assets/images/Screenshot%202025-01-15%20123904_mobile.png)
+**Web Version**
+
+![](./assets/images/Screenshot%202025-01-15%20123304.png)
+
+
+**Mobile Version**
+
+![](./assets/images/Screenshot%202025-01-15%20123904_mobile.png)
 
 
 ### Links
